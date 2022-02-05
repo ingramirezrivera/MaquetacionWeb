@@ -1,2 +1,2 @@
 # MaquetacionWeb
-Curso Pr´ctico Maquetación Web
+Curso Práctico Maquetación Web
