@@ -19,6 +19,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
     
    
 }
@@ -127,13 +128,10 @@ header {
 .blogs-main {
     display: grid;
     font-size: 2.5rem;
-
-
 }
 .blogs-news-container {
     background-color: #e6e9eD;
     padding: 0 50px 40px;
-    
 }
 .blogs-main-new {
     display: grid;
@@ -141,8 +139,7 @@ header {
     grid-template-rows: 2fr;
 }
 .blogs-main-img-container {
-    grid-column: 1;
-    
+    grid-column: 1;    
 }
 .blogs-main-img-container img {
     width: 85%;
@@ -158,6 +155,9 @@ header {
 .blogs-post-container {
     padding:  0 50px 40px;
 }
+.blogs-post-container div{
+    justify-items: center;
+}
 .blogs-post-container h3 {
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 20px;
@@ -167,6 +167,29 @@ header {
     border: 1px solid var(--main-color);
     padding: 10px 15px;
     font-size: 1.8rem ;
+}
+.blogs-post-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.blogs-post-container .post-container p {
+    margin-bottom: 35px;
+}
+.blogs-post-container .post-container img {
+    width: 100%;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #22272d;
+    border-top: 35px solid var(--main-color);
+    text-align: center;
+}
+footer p {
+    color: white;
+    margin-top: 20px;
 }
 
 
