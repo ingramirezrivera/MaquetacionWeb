@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px repeat(2,1fr);
+    }
+    .blogs-main-img-container {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .blogs-news-info-continer {
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
